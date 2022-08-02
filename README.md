@@ -60,4 +60,3 @@ conn, err := grpc.Dial("nacos://user/",
 	grpc.WithTransportCredentials(insecure.NewCredentials()),
 	grpc.WithDefaultServiceConfig(`{"loadBalancingPolicy": "nacos_weight_balancer"}`))
 ```
->>>>>>> Stashed changes
