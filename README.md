@@ -1,16 +1,13 @@
-<<<<<<< Updated upstream
-# grpc_resolver_nacos
-Nacos in grpc resolver and supports load balancing.
-=======
 # GRPC Resolver Nacos 
 
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/hang666/grpc_resolver_nacos)
 ![GitHub](https://img.shields.io/github/license/hang666/grpc_resolver_nacos)
 
 本项目实现了Grpc中Nacos的服务发现
 
 - 支持负载均衡中Nacos权重选择器
 - 支持 grpc-gateway
-- 使用 Nacos-sdk-go 同结构体配置方便
+- 使用 Nacos-sdk-go 同结构配置方便
 
 
 
