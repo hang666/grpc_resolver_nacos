@@ -37,7 +37,7 @@ client, err := clients.CreateNamingClient(map[string]interface{}{
 	"clientConfig":  &clientConfig,
 })
 // 添加Nacos配置 (支持多服务)
-AddNacosConfig(grpc_resolver_nacos.NacosConfig{
+grpc_resolver_nacos.AddNacosConfig(grpc_resolver_nacos.NacosConfig{
 	Label:              "user",			//Label与ServiceName一致即可
 	ServiceName:        "user",			//Nacos内注册的服务名
 	Clusters           	[]string{},
