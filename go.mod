@@ -1,4 +1,4 @@
-module grpc_resolver_nacos
+module github.com/hang666/grpc_resolver_nacos
 
 go 1.18
 
