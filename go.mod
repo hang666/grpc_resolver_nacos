@@ -5,13 +5,13 @@ go 1.18
 require (
 	github.com/nacos-group/nacos-sdk-go/v2 v2.0.3
 	github.com/pkg/errors v0.9.1
-	google.golang.org/grpc v1.48.0
+	google.golang.org/grpc v1.53.0
 )
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/buger/jsonparser v1.1.1 // indirect
-	github.com/cespare/xxhash/v2 v2.1.1 // indirect
+	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/go-errors/errors v1.0.1 // indirect
 	github.com/golang/mock v1.3.1 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
@@ -27,7 +27,7 @@ require (
 	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a // indirect
 	golang.org/x/sys v0.5.0 // indirect
 	golang.org/x/text v0.7.0 // indirect
-	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013 // indirect
-	google.golang.org/protobuf v1.27.1 // indirect
+	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f // indirect
+	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 )
